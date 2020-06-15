@@ -6,8 +6,8 @@ export function createRouter() {
   return new Router({
     mode: 'history',
     routes: [
-      { path: '/', component: () => import('./components/Home.vue') },
-      { path: '/detail', component: () => import('./components/Detail.vue') }
+      { path: '/', component: () => import('../components/Home.vue') },
+      { path: '/detail', component: () => import('../components/Detail.vue') }
     ]
   })
 }
